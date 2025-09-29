@@ -1,0 +1,9 @@
+ultralytics>=8.0.0
+insightface>=0.7.3
+opencv-python
+deep_sort_realtime
+numpy
+Pillow
+SQLAlchemy
+tqdm
+python-dotenv
