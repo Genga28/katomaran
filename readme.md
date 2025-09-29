@@ -15,6 +15,7 @@ The system can:
 
 📂 Project Structure
         katomaran/
+        
             │── main.py           # Entry point: runs detection + tracking + recognition
             │── detector.py       # Handles face detection
             │── tracker.py        # Handles DeepSort tracking
@@ -112,7 +113,9 @@ embedding |	BLOB	|  Numpy array (serialized)
 
 ✅ Example Console Output
 2025-09-26 22:13:38 | INFO | New face 218ea38d287f4296a7bffba0fb3317f6 track 4
+
 2025-09-26 22:14:10 | INFO | Face 218ea38d287f4296a7bffba0fb3317f6 exited track 4
+
 2025-09-26 22:15:22 | INFO | Recognized visitor (match: 0.82) - UUID: 218ea38d287f4296a7bffba0fb3317f6
 
 🚀 Next Steps / Improvements
