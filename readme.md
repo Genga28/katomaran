@@ -69,6 +69,18 @@ python main.py
 
     https://www.loom.com/share/c1070381140047a8b7b6be069f363521?sid=96e3acf2-e315-477f-8715-38828ee72b1f
 
+# Sample config:
+
+    {
+    "video_source": "C:\\ZZZ Genga\\companies\\katomaran\\record_20250620_183903.mp4",
+    "output_root": "./outputs",
+    "db_path": "./outputs/faces.db",
+    "detection_skip_frames": 3,
+    "min_face_confidence": 0.35,
+    "entry_image_size": [160, 160],
+    "tracker_max_age": 30
+    }
+
     
 🛠 How It Works
 
