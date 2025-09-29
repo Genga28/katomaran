@@ -143,21 +143,21 @@ Table: faces
 
 🚀 Next Steps / Improvements
 
- Add GUI (Streamlit/Dash) to display live video + visitor logs
-
- Store visitor logs (entry/exit time) in SQLite
-
- Add REST API for integration with other systems
-
- Optimize performance for large crowds
+     Add GUI (Streamlit/Dash) to display live video + visitor logs
+    
+     Store visitor logs (entry/exit time) in SQLite
+    
+     Add REST API for integration with other systems
+    
+     Optimize performance for large crowds
 
 🙌 Credits
 
-DeepFace
- – Face recognition and embeddings
-
-DeepSort
- – Object tracking
-
-OpenCV
- – Video processing
+    DeepFace
+     – Face recognition and embeddings
+    
+    DeepSort
+     – Object tracking
+    
+    OpenCV
+     – Video processing
