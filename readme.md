@@ -27,41 +27,44 @@ The system can:
 
 ⚙️ Installation
 1. Clone repo
-git clone https://github.com/<your-repo>/katomaran.git
-cd katomaran
+       
+        git clone https://github.com/<your-repo>/katomaran.git
+        cd katomaran
 
 2. Create virtual environment (Windows)
-python -m venv venv
-venv\Scripts\activate
+   
+        python -m venv venv
+        venv\Scripts\activate
 
 
 (Mac/Linux)
 
-python3 -m venv venv
-source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 
 3. Install dependencies
-pip install -r requirements.txt
+   
+    pip install -r requirements.txt
 
 
 requirements.txt
 
-opencv-python
-deepface
-numpy
-sqlite3-binary
-deep-sort-realtime
+    opencv-python
+    deepface
+    numpy
+    sqlite3-binary
+    deep-sort-realtime
 
 ▶️ Running the System
 
 Run the app with default camera:
 
-python main.py --config config.yaml
+    python main.py --config config.yaml
 
 
 If you don’t have a config, just run:
 
-python main.py
+    python main.py
 
 
 
@@ -116,7 +119,7 @@ Future enhancement: log to a CSV or web dashboard.
 
 📊 Database Schema
 
-SQLite DB: faces.db
+    SQLite DB: faces.db
 
 Table: faces
 
@@ -132,11 +135,11 @@ Table: faces
 
 ✅ Example Console Output
 
-2025-09-26 22:13:38 | INFO | New face 218ea38d287f4296a7bffba0fb3317f6 track 4
-
-2025-09-26 22:14:10 | INFO | Face 218ea38d287f4296a7bffba0fb3317f6 exited track 4
-
-2025-09-26 22:15:22 | INFO | Recognized visitor (match: 0.82) - UUID: 218ea38d287f4296a7bffba0fb3317f6
+    2025-09-26 22:13:38 | INFO | New face 218ea38d287f4296a7bffba0fb3317f6 track 4
+    
+    2025-09-26 22:14:10 | INFO | Face 218ea38d287f4296a7bffba0fb3317f6 exited track 4
+    
+    2025-09-26 22:15:22 | INFO | Recognized visitor (match: 0.82) - UUID: 218ea38d287f4296a7bffba0fb3317f6
 
 🚀 Next Steps / Improvements
 
