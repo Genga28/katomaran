@@ -101,17 +101,18 @@ SQLite DB: faces.db
 
 Table: faces
 
-Column    |	Type	|  Description
-
-id        |	INTEGER	|  Auto-increment ID
-
-uuid      |	TEXT	|  Unique visitor UUID
-
-embedding |	BLOB	|  Numpy array (serialized)
+    Column    |	Type	|  Description
+    
+    id        |	INTEGER	|  Auto-increment ID
+    
+    uuid      |	TEXT	|  Unique visitor UUID
+    
+    embedding |	BLOB	|  Numpy array (serialized)
 
 
 
 ✅ Example Console Output
+
 2025-09-26 22:13:38 | INFO | New face 218ea38d287f4296a7bffba0fb3317f6 track 4
 
 2025-09-26 22:14:10 | INFO | Face 218ea38d287f4296a7bffba0fb3317f6 exited track 4
