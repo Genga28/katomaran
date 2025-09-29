@@ -14,15 +14,15 @@ The system can:
     Log visitor events
 
 📂 Project Structure
-katomaran/
-│── main.py           # Entry point: runs detection + tracking + recognition
-│── detector.py       # Handles face detection
-│── tracker.py        # Handles DeepSort tracking
-│── embedder.py       # Extracts embeddings + cosine similarity
-│── db.py             # SQLite database handler
-│── faces.db          # SQLite database (auto-created on first run)
-│── requirements.txt  # Dependencies
-│── README.md         # Documentation
+        katomaran/
+            │── main.py           # Entry point: runs detection + tracking + recognition
+            │── detector.py       # Handles face detection
+            │── tracker.py        # Handles DeepSort tracking
+            │── embedder.py       # Extracts embeddings + cosine similarity
+            │── db.py             # SQLite database handler
+            │── faces.db          # SQLite database (auto-created on first run)
+            │── requirements.txt  # Dependencies
+            │── README.md         # Documentation
 
 ⚙️ Installation
 1. Clone repo
@@ -101,9 +101,13 @@ SQLite DB: faces.db
 Table: faces
 
 Column    |	Type	|  Description
+
 id        |	INTEGER	|  Auto-increment ID
+
 uuid      |	TEXT	|  Unique visitor UUID
+
 embedding |	BLOB	|  Numpy array (serialized)
+
 
 
 ✅ Example Console Output
